@@ -37,7 +37,6 @@ public class UserController {
 //	@Autowired
 //	private UserServeice userService;
 	
-	
 	@GetMapping("user/{moduleName}")
 	public String index(@PathVariable String moduleName) {
 		return moduleName;

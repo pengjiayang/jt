@@ -2,28 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae59c766-4a9a-4c0a-9911-3957c1733bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/OrderShipping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderItemMappper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderMappper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderShippingMappper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-order/src/main/resources/properties/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jt_order_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jt_order_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jt-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-cart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jt-order/jt-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/jt-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jt-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/SpringBootRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/SpringBootRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/mapper/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/mapper/CartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/service/DubboCartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-cart/target/classes/com/jt/service/DubboCartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/anno/Cache_find.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/anno/Cache_find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/anno/Cache_find1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/anno/Cache_find1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/RedisAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/RedisAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/RedisAspect1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/aop/RedisAspect1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/RedisClusterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/RedisClusterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/SentinelConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/SentinelConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/config/Swagger2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/enu/KEY_ENUM.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/enu/KEY_ENUM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/enu/KEY_ENUM1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/enu/KEY_ENUM1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/BasePojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/BasePojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/ItemDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/service/DubboCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/service/DubboCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/service/DubboUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/service/DubboUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/ObjectMapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/ObjectMapperUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/util/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/SysResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-common/target/classes/com/jt/vo/SysResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/SpringBootRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/SpringBootRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemCatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/web/JSONPController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/web/JSONPController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/web/WebItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/controller/web/WebItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/FileMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/FileMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemCatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemCatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemDescMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemDescMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/mapper/ItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemCatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemCatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemCatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/service/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUIData.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUIData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUITree.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/EasyUITree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/ImageVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/ImageVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/JsonResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/JsonResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/SysResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/classes/com/jt/vo/SysResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestJedisCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestJedisCluster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedis2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedis2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedisShards.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestRedisShards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestSentinel.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/TestSentinel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test22.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/Test4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-manage/target/test-classes/com/jt/tt/test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/SpringBootRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/SpringBootRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/DubboUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/DubboUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-sso/target/classes/com/jt/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/SpringBootRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/SpringBootRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/HttpClientClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/HttpClientClose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/HttpClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/HttpClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/MvcConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/config/MvcConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/UserServeice.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/UserServeice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/util/HttpClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/util/HttpClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/classes/com/jt/util/HttpClientService1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/classes/com/jt/util/HttpClientService1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/test-classes/com/jt/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/test-classes/com/jt/test/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-web/target/test-classes/com/jt/test/TestHttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/jt-web/target/test-classes/com/jt/test/TestHttpClient.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jt-sso/target/" />
     <ignored path="$PROJECT_DIR$/jt-manage/target/" />
@@ -43,61 +107,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderMappper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderItemMappper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/ItemController.java">
+        <entry file="file://$PROJECT_DIR$/jt-cart/src/main/java/com/jt/service/DubboCartServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/SpringBootRun.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/SpringBootRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -114,17 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderShippingMappper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <state relative-caret-position="302">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -132,7 +202,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="300">
               <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
             </state>
           </provider>
@@ -159,16 +229,19 @@
         <option value="$PROJECT_DIR$/jt-web/src/main/java/com/jt/util/UserThreadLocal.java" />
         <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/SpringBootRun.java" />
         <option value="$PROJECT_DIR$/jt-cart/pom.xml" />
-        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java" />
-        <option value="$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java" />
         <option value="$PROJECT_DIR$/jt-order/pom.xml" />
-        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderItemMappper.xml" />
         <option value="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderMappper.xml" />
         <option value="$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderShippingMappper.xml" />
         <option value="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java" />
+        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java" />
+        <option value="$PROJECT_DIR$/jt-cart/src/main/java/com/jt/service/dssad.java" />
+        <option value="$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/Cart.java" />
         <option value="$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java" />
+        <option value="$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -206,8 +279,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="752" />
-    <option name="y" value="247" />
+    <option name="x" value="601" />
+    <option name="y" value="88" />
     <option name="width" value="1264" />
     <option name="height" value="863" />
   </component>
@@ -217,7 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +331,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jt" type="462c0819:PsiDirectoryNode" />
+              <item name="jt-cart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt" type="b2602c69:ProjectViewProjectNode" />
@@ -363,16 +445,9 @@
               <item name="jt-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jt" type="462c0819:PsiDirectoryNode" />
-              <item name="jt-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jt" type="b2602c69:ProjectViewProjectNode" />
@@ -423,6 +498,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -434,14 +510,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560916695134" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560922096408" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -472,7 +548,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootRun (2)">
+  <component name="RunManager" selected="Spring Boot.SpringBootRun (3)">
     <configuration name="SpringBootRun (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jt-cart" />
       <extension name="coverage">
@@ -488,6 +564,19 @@
     </configuration>
     <configuration name="SpringBootRun (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="jt-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jt.SpringBootRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRun (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jt-order" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jt.*" />
@@ -525,17 +614,19 @@
       <item itemvalue="Spring Boot.SpringBootRun-web" />
       <item itemvalue="Spring Boot.SpringBootRun (1)" />
       <item itemvalue="Spring Boot.SpringBootRun (2)" />
+      <item itemvalue="Spring Boot.SpringBootRun (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootRun (2)" />
-        <item itemvalue="Spring Boot.SpringBootRun (1)" />
         <item itemvalue="Spring Boot.SpringBootRun-web" />
+        <item itemvalue="Spring Boot.SpringBootRun (3)" />
+        <item itemvalue="Spring Boot.SpringBootRun (1)" />
+        <item itemvalue="Spring Boot.SpringBootRun (2)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\UID\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -545,15 +636,25 @@
       <option name="presentableId" value="Default" />
       <updated>1560908945479</updated>
       <workItem from="1560908963461" duration="4032000" />
-      <workItem from="1560914017478" duration="2576000" />
+      <workItem from="1560914017478" duration="4544000" />
+      <workItem from="1560920532710" duration="422000" />
+      <workItem from="1560920989205" duration="997000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;the frist add&quot;">
+      <created>1560916845654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560916845654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6608000" />
+    <option name="totallyTimeSpent" value="9995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="251" width="1264" height="863" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -561,11 +662,9 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.26827243" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4991708" visible="true" weight="0.17537314" />
       <window_info id="Structure" order="6" sideWeight="0.50082916" side_tool="true" weight="0.1705757" />
       <window_info id="Web" order="7" sideWeight="0.50082916" side_tool="true" weight="0.1705757" />
-      <window_info anchor="bottom" id="Sequence" />
-      <window_info anchor="bottom" id="Tail" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Thumbnails" order="2" weight="0.3288889" />
@@ -573,7 +672,7 @@
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.42022792" />
+      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -582,12 +681,14 @@
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32814237" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32925472" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.32849163" />
+      <window_info anchor="bottom" id="Sequence" order="17" />
+      <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.5141196" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.5141196" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -598,18 +699,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;the frist add&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;the frist add&quot;" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jt-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/SpringBootRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -738,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/SpringBootRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jt-cart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -752,37 +843,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jt-common/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-common/src/main/resources/mappers/CartMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/CartMapper.xml" />
     <entry file="file://$PROJECT_DIR$/jt-cart/src/main/resources/mybatis/mappers/CartMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -800,24 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jt-order/src/main/resources/mappers/OrderItemMappper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -835,10 +887,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="80">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderShippingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-cart/src/main/java/com/jt/service/dssad.java" />
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/mapper/OrderItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,21 +932,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/CartController.java">
+    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-cart/src/main/java/com/jt/service/DubboCartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-common/src/main/java/com/jt/pojo/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/SpringBootRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/SpringBootRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jt-web/src/main/java/com/jt/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="328">
+          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-common/src/main/java/com/jt/service/DubboOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jt-order/src/main/java/com/jt/service/DubboOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>

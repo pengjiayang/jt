@@ -1,4 +1,7 @@
 package com.jt.mapper;
 
-public class OrderShippingMapper {
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.jt.pojo.OrderShipping;
+
+public interface OrderShippingMapper extends BaseMapper<OrderShipping> {
 }
